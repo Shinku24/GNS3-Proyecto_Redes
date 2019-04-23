@@ -1,0 +1,42 @@
+Apr 17 16:21:56.632 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 17 16:21:56.635 HYPERVISOR: Started on IP = 192.168.1.54, TCP port = 56070.
+Apr 17 16:21:57.083 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 17 16:21:57.084 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips 
+Apr 17 16:21:57.084 GENERAL: working_dir=C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips
+Apr 17 16:21:57.085 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips\a88a35b3-115c-4e6b-b44c-277ac1a81a36 
+Apr 17 16:21:57.098 GENERAL: working_dir=C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips\a88a35b3-115c-4e6b-b44c-277ac1a81a36
+Apr 17 16:21:57.099 HYPERVISOR: exec_cmd: vm create R2 2 c3725 
+Apr 17 16:21:57.103 VM: VM R2 created.
+Apr 17 16:21:57.104 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5006 
+Apr 17 16:21:57.104 HYPERVISOR: exec_cmd: c3725 get_mac_addr R2 
+Apr 17 16:21:57.105 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 17 16:21:57.105 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 17 16:21:57.106 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:21:57.106 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60bf8ba0 
+Apr 17 16:21:57.109 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Bluelink/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 17 16:21:57.109 HYPERVISOR: exec_cmd: c3725 set_mac_addr R2 c202.1b88.0000 
+Apr 17 16:21:57.110 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Apr 17 16:21:57.110 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:21:57.111 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 NM-1FE-TX 
+Apr 17 16:21:57.111 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:21:57.112 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 NM-1FE-TX 
+Apr 17 16:22:00.703 HYPERVISOR: exec_cmd: nio create_udp udp-6d0f866a-0b37-49a9-81ad-61ee2711c9a7 10012 127.0.0.1 10013 
+Apr 17 16:22:00.983 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-6d0f866a-0b37-49a9-81ad-61ee2711c9a7 
+Apr 17 16:22:00.984 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:22:01.866 HYPERVISOR: exec_cmd: nio create_udp udp-9a8b7241-c7d6-459f-bdcb-dc202638f893 10028 127.0.0.1 10029 
+Apr 17 16:22:01.872 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-9a8b7241-c7d6-459f-bdcb-dc202638f893 
+Apr 17 16:22:01.873 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:23:30.435 HYPERVISOR: exec_cmd: vm create Ghost 0 c3725 
+Apr 17 16:23:30.440 VM: VM Ghost created.
+Apr 17 16:23:30.441 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Bluelink/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Apr 17 16:23:30.441 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Apr 17 16:23:30.442 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost 'C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips\c3725-adventerprisek9-mz124-15.image-128.ghost' 
+Apr 17 16:23:30.443 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:23:30.444 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Apr 17 16:23:30.444 HYPERVISOR: exec_cmd: vm start R2 
+Apr 17 16:24:16.702 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 17 16:24:16.746 HYPERVISOR: exec_cmd: vm extract_config R2 
+Apr 17 16:27:50.994 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 17 16:27:51.001 HYPERVISOR: exec_cmd: vm stop R2 
+Apr 17 16:27:51.351 VM: VM R2 shutdown.
+Apr 17 16:27:51.361 HYPERVISOR: exec_cmd: vm extract_config R2 

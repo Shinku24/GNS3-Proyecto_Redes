@@ -1,0 +1,19 @@
+Apr 17 16:21:55.753 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 17 16:21:55.757 HYPERVISOR: Started on IP = 192.168.1.54, TCP port = 56062.
+Apr 17 16:21:55.767 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 17 16:21:55.768 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips 
+Apr 17 16:21:55.910 GENERAL: working_dir=C:\Users\Bluelink\GNS3\projects\ProyectoRedes - Punto1\project-files\dynamips
+Apr 17 16:21:55.911 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Apr 17 16:21:58.950 HYPERVISOR: exec_cmd: nio create_udp udp-3ee815bf-f405-4cde-bfe4-9fd88176966f 10001 192.168.1.54 10000 
+Apr 17 16:21:58.996 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-3ee815bf-f405-4cde-bfe4-9fd88176966f 
+Apr 17 16:21:59.005 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-3ee815bf-f405-4cde-bfe4-9fd88176966f 1 
+Apr 17 16:21:59.115 HYPERVISOR: exec_cmd: nio create_udp udp-3792d86b-b100-453f-876c-3174bd5ec10b 10003 192.168.1.54 10002 
+Apr 17 16:21:59.116 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-3792d86b-b100-453f-876c-3174bd5ec10b 
+Apr 17 16:21:59.130 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-3792d86b-b100-453f-876c-3174bd5ec10b 1 
+Apr 17 16:21:59.222 HYPERVISOR: exec_cmd: nio create_udp udp-e02a55c7-1ee0-47df-a13f-2e1e75eb7622 10004 192.168.1.54 10005 
+Apr 17 16:21:59.223 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-e02a55c7-1ee0-47df-a13f-2e1e75eb7622 
+Apr 17 16:21:59.233 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-e02a55c7-1ee0-47df-a13f-2e1e75eb7622 1 
+Apr 17 16:27:51.873 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Apr 17 16:27:51.927 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 17 16:27:52.403 HYPERVISOR: Stopped.
+Apr 17 16:27:52.403 GENERAL: reset done.
